@@ -46,7 +46,7 @@
 `npm star`
 
 后，在弹出的浏览器 `localhost://3000` 页面下能看到页面展示出来，如下图：
-![react](https://github.com/lijinping2017/redux-saga-demo/raw/master/redux-images/react.jpg)
+![react](https://github.com/lijinping2017/redux-saga-demo/raw/master/saga-images/react.jpg)
 
 就说明项目能正常运行成功了。
 
@@ -61,7 +61,7 @@
 (2)安装完成后，打开 `package.json` 文件，我们会看到 `devDependencies` 多 `redux` 和
 `rect-redux` 和 `redux-saga` 三个插件以及插件的版本号信息，如图所示：
 
-![package-json](https://github.com/lijinping2017/redux-saga-demo/raw/master/redux-images/package-json.jpg)
+![package-json](https://github.com/lijinping2017/redux-saga-demo/raw/master/saga-images/package-json.jpg)
 
 此时项目就可以使用 `redux`、`react-redux`、 `redux-saga` 这三个插件了。
 
@@ -256,12 +256,12 @@ App.js
  `npm start`
 
 启动项目后，会弹出新的浏览器 `localhost://3000` 页面，此时页面是这样的：
-![saga](https://github.com/lijinping2017/redux-saga-demo/raw/master/redux-images/saga.jpg)
+![saga](https://github.com/lijinping2017/redux-saga-demo/raw/master/saga-images/saga.jpg)
 
 出现这样的页面就说明项目没有错误，达到了我们想要的效果，这时要验证一下点击**点击获取数据**按钮时，是否在页面中将异步数据展示出来，测试结果如下：
 
 点击**点击获取数据**按钮：
-![getdata](https://github.com/lijinping2017/redux-saga-demo/raw/master/redux-images/saga-getdata.jpg)
+![getdata](https://github.com/lijinping2017/redux-saga-demo/raw/master/saga-images/saga-getdata.jpg)
 
 
 好了，此时的页面效果可以说明了我们已经完成了基于 `create-react-app` 引入 `saga` 来实现异步获取数据的效果了。
